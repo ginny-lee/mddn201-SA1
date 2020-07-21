@@ -5,9 +5,17 @@
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	margin: 10px; /* Often browsers have a 5px margin by deafult*/
+	font-family: font-family: 'Libre Baskerville', serif;
 }
+
+h1{
+	font-size: 40px;
+	font-family: font-family: 'Libre Baskerville', serif;
+	
+}
+
+
 
 section{
 	max-width: 1000px;
@@ -15,33 +23,54 @@ section{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	
+
 }
 
 header{
-	background-color: blue;
+	background-color: rgb(147, 117, 102);
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin-left: -115px;
+	font-family: 'Libre Baskerville', serif;
+
 }
+
 
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: pink;
+	background-color: rgb(254, 245, 239);
+	position: fixed;
+	top: 0;
 }
 
+
 nav a, nav h3{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 26px;
 	float: left;
 	margin: 0px;
-	line-height: 60px;
+	line-height: 30px;
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	background-color: #e8dad1; /* Hover styles to let people know they can click it */
+}
+
+.gap{
+	margin-left: 120px;
+}
+
+.title{
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .test{
